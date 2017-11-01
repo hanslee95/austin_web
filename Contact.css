@@ -1,0 +1,86 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+
+  margin: 0; padding: 0;
+}
+
+
+body {
+    /*figure out background with taha, the color scheme!*/
+  background:#302c35 ;
+}
+.header {
+  height: 25px;
+  background: #111;
+  color: #fff;
+  text-align: center;
+  font: 11px/25px Helvetica, Arial, sans-serif;
+}
+
+.header a {
+  color: #eee;
+}
+
+.header a:hover {
+  text-decoration: none;
+}
+
+article {
+    font-family: 'Tahoma', Geneva, sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 70%;
+	
+	
+}
+
+p {
+    
+    font-family: 'Tahoma', Geneva, sans-serif;
+    font-size: 600%;
+    margin-top: 10%;
+}
+
+
+
+.fb {
+	margin-left: 10%;
+	margin-top: 100px;
+	max-height:100px;
+	max-width:100px;
+}
+
+.insta {
+	margin-left: 10%;
+	margin-top: 100px;
+	max-height: 100px;
+	max-width: 100px;
+	
+}
+
+.lnk {
+	margin-left: 10%;
+	margin-top: 100px;
+	max-height:100px;
+	max-width: 100px;
+}
+
+.gml {
+	margin-left: 10%;
+	margin-top: 100px;
+	max-height:100px;
+	max-width: 100px;
+}
+
+.ytb {
+	margin-left: 10%;
+	margin-top: 100px;
+	max-height:100px;
+	max-width: 100px;
+}
+
+
+
