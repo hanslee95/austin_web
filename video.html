@@ -2,16 +2,54 @@
 
 <html lang="en">
 <head>
-		<title>AJW</title>
-		<meta charset="utf-8" />
-		<link rel="stylesheet" type="text/css" href="video.css">
+        <title>AJW</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="video.css">
 
 
 </head>
 <body>
 
 
-		<!-- CSS style -->
+        <!-- CSS style -->
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    overflow: hidden;
+    /*nav bar color*/
+    background-color:#fe4a49 ;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+li {
+    float: left;
+    border-right: 2px solid #bbb;
+}
+/*mouse hover, letters glow*/
+a:hover {
+    color: #0088cc;
+}
+a {
+    font-size:150%
+}
+li:last-child {
+    border-right: none;
+}
+li a {
+    /*font style of nav bar letters*/
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+</style>
 
 <!-- nav bar html -->
 <ul>
@@ -22,36 +60,49 @@
             <li><a href="contact.html">Contact</a></li>
   </ul>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- This is for big feature video using video autoplay on w3schools(HTML youtube) -->
 <!-- <div class="video-container"><iframe width="853" height="480" src="https://www.youtube.com/embed/z9Ul9ccDOqE?wmode=transparent" frameborder="0" wmode="Opaque"</iframe></div> -->
 
 <!-- All photos posted -->
     <article>
-        <hr />
         <p>Videos</p>
-        <hr />
     </article>
      
     
     <!-- you get the url for youtube from the share tab below the video, and click embed -->
+  <div class="big">
+     <iframe width="1100" height="600" src="https://www.youtube.com/embed/tv3KPB9Xssk" frameborder="0" allowfullscreen></iframe>
+ </div>
 
-<div id="container">
-    <div class="img_space">
-    <iframe width="1100" height="600" src="https://www.youtube.com/embed/tv3KPB9Xssk" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="img_space">
+ <div class="first">
     <iframe width="500" height="400" src="https://www.youtube.com/embed/KmpiwU50f5w" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="img_space">
-    <iframe width="500" height="400" src="https://www.youtube.com/embed/_UUjJJQ02n0" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="img_space">
-    <iframe width="500" height="400" src="https://www.youtube.com/embed/I3dezFzsNss" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="img_space">
-   <iframe width="500" height="400" src="https://www.youtube.com/embed/UlWvwpFYk70" frameborder="0" allowfullscreen></iframe>
-    </div>
 </div>
+
+<div class="second">
+    <iframe width="500" height="400" src="https://www.youtube.com/embed/_UUjJJQ02n0" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div class="third">
+    <iframe width="500" height="400" src="https://www.youtube.com/embed/I3dezFzsNss" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div class="four">
+   <iframe width="500" height="400" src="https://www.youtube.com/embed/UlWvwpFYk70" frameborder="0" allowfullscreen></iframe>
+</div>
+
 
 
 
